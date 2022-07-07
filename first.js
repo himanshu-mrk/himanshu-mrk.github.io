@@ -1,12 +1,3 @@
-function sum(){
-	console.log('Hello Mirketa Welcome');
-}
-
-function printName(){
-	var fname = document.getElementById('firstname').value;
-	console.log('Hello ' + fname);
-}
-
 function printSupperstar(){
 	var fname = document.getElementById('firstname').value;
 	var lname = document.getElementById('lastname').value;
@@ -18,6 +9,12 @@ function mathsOp(){
 	var lname = document.getElementById('lastname').value;
 	var add = parseInt(fname) + parseInt(lname);
 	console.log('Addition = ' + add);
+	
+}
+
+function del(){
+	document.getElementById('firstname').value = "";
+	document.getElementById('lastname').value = "";
 	
 }
 
